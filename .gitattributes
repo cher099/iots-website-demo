@@ -1,0 +1,4 @@
+# Exclude bundled third-party libraries from GitHub Linguist statistics.
+assets/css/bootstrap.min.css linguist-vendored
+assets/js/bootstrap.min.js linguist-vendored
+assets/js/jquery.min.js linguist-vendored
