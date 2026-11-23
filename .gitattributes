@@ -2,3 +2,9 @@
 assets/css/bootstrap.min.css linguist-vendored
 assets/js/bootstrap.min.js linguist-vendored
 assets/js/jquery.min.js linguist-vendored
+
+# This project is presented as a JavaScript-focused implementation.
+# Keep HTML and CSS files in the repository, but exclude them from
+# GitHub's language percentage so the custom JavaScript is highlighted.
+*.html linguist-detectable=false
+*.css linguist-detectable=false
